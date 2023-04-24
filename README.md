@@ -46,6 +46,8 @@ ALTER USER 'sys_test'@'localhost' IDENTIFIED WITH mysql_native_password BY 'pass
 
 1.8. При работе в IDE сформируйте ER-диаграмму получившейся базы данных. При работе в командной строке используйте команду для получения всех таблиц базы данных. (скриншот)
 
+![image](https://user-images.githubusercontent.com/106932460/234035827-f5a04447-db00-48a7-96df-6045f613722a.png)
+
 *Результатом работы должны быть скриншоты обозначенных заданий, а также простыня со всеми запросами.*
 
 
@@ -53,9 +55,27 @@ ALTER USER 'sys_test'@'localhost' IDENTIFIED WITH mysql_native_password BY 'pass
 Составьте таблицу, используя любой текстовый редактор или Excel, в которой должно быть два столбца: в первом должны быть названия таблиц восстановленной базы, во втором названия первичных ключей этих таблиц. Пример: (скриншот/текст)
 ```
 Название таблицы | Название первичного ключа
-customer         | customer_id
+customer       |   customer_id
+payment        |   payment_id        
+rental         |   rental_id
+store          |   store_id
+staff          |   staff_id
+address        |   address_id
+city           |   city_id
+country        |   country_id
+film           |   film_id
+language       |   language_id
+inventory      |   inventory_id
+actor          |   actor_id
+film_actor     |   actor_id, film_id
+film_category  |   film_id, category_id
+category       |   category_id
+film_text      |   film_id
 ```
-
+Есть еще представления, если я не забыл как это называется.
+```
+sales_by_film_category, sales_by_store, actor_info, film_list
+```
 
 ## Дополнительные задания (со звёздочкой*)
 Эти задания дополнительные, то есть не обязательные к выполнению, и никак не повлияют на получение вами зачёта по этому домашнему заданию. Вы можете их выполнить, если хотите глубже шире разобраться в материале.
