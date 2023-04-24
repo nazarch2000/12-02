@@ -83,6 +83,11 @@ sales_by_film_category, sales_by_store, actor_info, film_list
 ### Задание 3*
 3.1. Уберите у пользователя sys_temp права на внесение, изменение и удаление данных из базы sakila.
 
+![image](https://user-images.githubusercontent.com/106932460/234114021-98322336-ee99-4f74-a09e-65475a2c2814.png)
+
 3.2. Выполните запрос на получение списка прав для пользователя sys_temp. (скриншот)
+
+![image](https://user-images.githubusercontent.com/106932460/234114106-f554d478-a523-4c76-9136-b852c6a1bdf5.png)
+
 
 *Результатом работы должны быть скриншоты обозначенных заданий, а также простыня со всеми запросами.*
