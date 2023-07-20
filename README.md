@@ -72,7 +72,7 @@ film_category  |   film_id, category_id
 category       |   category_id
 film_text      |   film_id
 ```
-Есть еще представления, если я не забыл как это называется.
+Есть еще представления.
 ```
 sales_by_film_category, sales_by_store, actor_info, film_list
 ```
